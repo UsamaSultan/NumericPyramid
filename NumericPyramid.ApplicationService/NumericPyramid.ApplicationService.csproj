@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NumericPyramid.Domain\NumericPyramid.Domain.csproj" />
+    <ProjectReference Include="..\NumericPyramid.Dto\NumericPyramid.Dto.csproj" />
+  </ItemGroup>
+
+</Project>

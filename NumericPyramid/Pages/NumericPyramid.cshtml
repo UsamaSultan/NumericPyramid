@@ -1,0 +1,26 @@
+﻿@page
+@model NumericPyramid.Pages.NumericPyramidModel
+@{
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome to Task</h1>
+    <p>Learn more about Me <a href="https://www.linkedin.com/in/usama-sultan-17707877/">LinkedIn</a>
+                           <a href="https://github.com/UsamaSultan/">GitHub</a></p>
+</div>
+<div>
+    <table class="table">
+        <tr>
+            <br />
+            <b>Max Sum:</b> @Model.Result.MaxSum
+        </tr>
+
+        <tr>
+            <br /><br />
+            <b>Path:</b> @Model.Result.Path
+        </tr>
+        <div>
+            <a asp-page="./Quit" class="btn btn-dark" style="background-color: crimson; color: azure; size: A4; margin-left:45%;
+                                      margin-right:auto; margin-bottom: 0% ;margin-top: 5% "> Quit </a>
+        </div>
+    </table>
+</div>

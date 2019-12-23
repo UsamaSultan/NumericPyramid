@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericPyramid", "NumericPyramid\NumericPyramid.csproj", "{9D31F4DD-FF60-4245-AD83-36A58FEE5011}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apps", "Apps", "{0ADC0293-CCAE-4DBE-B3CB-E71881F68F4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D2D6E61F-F1E7-4AC8-B9C1-D85AD71C82D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{630EA402-473E-4B53-B0DF-42B092EFBF21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericPyramid.ApplicationService", "NumericPyramid.ApplicationService\NumericPyramid.ApplicationService.csproj", "{E97BB44C-7165-4B44-83C4-1019E4BDF071}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericPyramid.Domain", "NumericPyramid.Domain\NumericPyramid.Domain.csproj", "{4847B5AC-1B92-4999-9DBB-7F011030C028}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericPyramid.DataAccess", "NumericPyramid.DataAccess\NumericPyramid.DataAccess.csproj", "{6CBB2912-71A7-42AC-A030-3816745C30ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumericPyramid.Dto", "NumericPyramid.Dto\NumericPyramid.Dto.csproj", "{D93191C2-B7CD-40C0-920B-EA738D9D33E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D31F4DD-FF60-4245-AD83-36A58FEE5011}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D31F4DD-FF60-4245-AD83-36A58FEE5011}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D31F4DD-FF60-4245-AD83-36A58FEE5011}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D31F4DD-FF60-4245-AD83-36A58FEE5011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97BB44C-7165-4B44-83C4-1019E4BDF071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97BB44C-7165-4B44-83C4-1019E4BDF071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97BB44C-7165-4B44-83C4-1019E4BDF071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97BB44C-7165-4B44-83C4-1019E4BDF071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4847B5AC-1B92-4999-9DBB-7F011030C028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4847B5AC-1B92-4999-9DBB-7F011030C028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4847B5AC-1B92-4999-9DBB-7F011030C028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4847B5AC-1B92-4999-9DBB-7F011030C028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CBB2912-71A7-42AC-A030-3816745C30ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CBB2912-71A7-42AC-A030-3816745C30ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CBB2912-71A7-42AC-A030-3816745C30ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CBB2912-71A7-42AC-A030-3816745C30ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D93191C2-B7CD-40C0-920B-EA738D9D33E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D93191C2-B7CD-40C0-920B-EA738D9D33E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D93191C2-B7CD-40C0-920B-EA738D9D33E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D93191C2-B7CD-40C0-920B-EA738D9D33E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9D31F4DD-FF60-4245-AD83-36A58FEE5011} = {0ADC0293-CCAE-4DBE-B3CB-E71881F68F4E}
+		{E97BB44C-7165-4B44-83C4-1019E4BDF071} = {D2D6E61F-F1E7-4AC8-B9C1-D85AD71C82D5}
+		{4847B5AC-1B92-4999-9DBB-7F011030C028} = {D2D6E61F-F1E7-4AC8-B9C1-D85AD71C82D5}
+		{6CBB2912-71A7-42AC-A030-3816745C30ED} = {630EA402-473E-4B53-B0DF-42B092EFBF21}
+		{D93191C2-B7CD-40C0-920B-EA738D9D33E3} = {630EA402-473E-4B53-B0DF-42B092EFBF21}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F8330B8-1332-4B2E-95D8-BCD1D055E731}
+	EndGlobalSection
+EndGlobal

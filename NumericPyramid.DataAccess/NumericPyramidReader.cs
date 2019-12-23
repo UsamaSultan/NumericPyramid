@@ -9,10 +9,16 @@ namespace NumericPyramid.DataAccess
 {
     public class NumericPyramidReader : INumericPyramidReader
     {
-        public ILogger<NumericPyramidReader> Logger { get; }
+        private readonly ILogger<NumericPyramidReader> _logger;
 
+        public NumericPyramidReader(ILogger<NumericPyramidReader> logger)
+        {
+            _logger = logger;
+        }
         public async Task<PagedResult> GetResultAsync(List<int[]> pyramid)
         {
+            _logger.LogInformation("Calculating Result from Reader.");
+
             var even = pyramid[0][0] % 2;
             var top = pyramid[0][0];
             var count = pyramid.Count();
